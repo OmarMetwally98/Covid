@@ -94,8 +94,5 @@ fig.update_layout(
 st.plotly_chart(fig)
 
 
-st.title("Top Region with Deaths Cases ")
 
-# Group the data by organization and calculate the total deaths
-organization_deaths = filtered_data.groupby('WHO Region')['Deaths'].sum().reset_index()
 
