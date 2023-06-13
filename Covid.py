@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from streamlit import components
 #########################################################################################################################
 
-df = pd.read_csv('C:\\Users\\Ahmad\\Desktop\\Covid.csv')
+df = pd.read_csv('Covid.csv')
 
 st.set_page_config(page_title = 'Covid Dashboard',
                     page_icon = 'bar_chart:',
